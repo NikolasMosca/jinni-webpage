@@ -1,0 +1,288 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Jinni</title>
+  <meta name="description" content="URL Shortener Service">
+  <meta name="author" content="Jinni">
+  <meta name='viewport' content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+
+  <script src="https://use.typekit.net/ywg7ofd.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+  <link rel="icon" type="image/png" href="img/icon-jinni.png" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <script src="js/ajax.js"></script>
+  <script src="js/base.js"></script>
+
+</head>
+
+<body class="background_gradient" style="overflow-x:hidden;">
+
+	<!-- / BACKGROUND TOP -->
+
+	<!-- JINNI TOOLBAR -->
+	<div id="jinni_toolbar" class="fixed">
+		<div class="jinni_body">
+			<img class="logo" src="img/logo-jinni-colors.png" width="105" height="46" alt="Jinni URL Shortener" title="Jinni"/>
+			<div class="shortener">
+				<div id="top_http" class="http">http://</div>
+				<input type="text" id="top_url_shortener" placeholder="Paste a link to start">
+			</div>
+			<img id="jinni_login_top" src="img/login-black.png" width="32" height="32" alt="Jinni Login" title="Jinni Login" class="jinni_login pointer">
+			<img id="jinni_menu_top" src="img/menu-black.png" width="25" height="22" alt="Jinni Menu" title="Jinni Menu" class="jinni_menu pointer">
+		</div>
+    <div id="top_share" class="main_share" style="visibility:hidden">
+      <div id="top_share_jinni" class="share_jinni">jin.ni/fSDhwu</div>
+      <div id="top_share_button" class="share_button">Share</div>
+      <div id="top_share_copy" class="share_copy">Copy</div>
+    </div>
+	</div>
+	<!-- / JINNI TOOLBAR -->
+
+	<!-- BACKGROUND TOP -->
+	<div class="background_gradient top_color"></div>
+		<!-- BODY PAGE -->
+    <div class="overflow">
+			<div class="jinni_body">
+
+				<!-- JINNI HEADER -->
+				<div class="box_top">
+					<img class="logo_white" src="img/logo-jinni-white-beta.png" alt="" width="190" height="57"/>
+					<img id="jinni_login" src="img/login-white.png" width="32" height="32" alt="Jinni Login" title="Jinni Login" class="jinni_login pointer">
+					<img id="jinni_menu" src="img/menu-white.png" width="25" height="22" alt="Jinni Menu" title="Jinni Menu" class="jinni_menu pointer">
+				</div>
+				<!-- / JINNI HEADER -->
+
+				<!-- JINNI HEADER MESSAGE -->
+				<div class="box_top_message">
+					<div class="huge_message">A smarter way to share</div>
+					<div class="small_message">Share links. Boost content. Track results.</div>
+					<div class="shortener">
+						<div id="main_http" class="http">http://</div>
+						<input type="text" id="main_url_shortener" placeholder="Paste a link to start">
+					</div>
+				</div>
+				<!-- / JINNI HEADER MESSAGE -->
+        <div id="main_share" class="main_share" style="visibility:hidden">
+          <div id="share_jinni" class="share_jinni">jin.ni/fSDhwu</div>
+          <div id="share_button" class="share_button">Share</div>
+          <div id="share_copy" class="share_copy">Copy</div>
+        </div>
+
+				<!-- ARROW DOWN -->
+				<div class="box_top_arrow_down txt_center">
+					<img id="button_arrow_down" src="img/arrow-down-white.png" width="32" height="32" alt="Jinni DropDown" title="" class="pointer"/>
+				</div>
+				<!-- / ARROW DOWN -->
+
+				<!-- BEGIN WHITE PAGE -->
+				<div id="target_arrow_down" class="box_white">
+
+					<div class="block_1 txt_center">
+						<div class="huge_message">SHORTENING AND SHARING DESIGNED TO MAKE YOUR LIFE EASIER</div>
+						<div class="small_message">Less effort. More exposure. Jinni helps you drive traffic for your posts and be faster and more effective, so you can enjoy your work life.</div>
+            <div class="give_it_a_try_button block_center">Get started</div>
+					</div>
+
+					<div class="block_2">
+						<!-- Inserire card -->
+            <img class="card_1" src="img/cards/card_1.png" width="233" height="333" alt="" title=""/>
+            <img class="card_2" src="img/cards/card_2.png" width="234" height="335" alt="" title=""/>
+            <img class="card_3" src="img/cards/card_3.png" width="264" height="383" alt="" title=""/>
+            <img class="card_4" src="img/cards/card_4.png" width="234" height="335" alt="" title=""/>
+            <img class="card_5" src="img/cards/card_5.png" width="234" height="335" alt="" title=""/>
+					</div>
+
+          <div class="block_3">
+            <img class="fast_and_smart_img" src="img/fast-and-smart.jpg" width="384" height="384" alt="" title=""/>
+            <div class="fast_and_smart_text">
+              <div class="huge_message">Fast &amp; Smart </div>
+    					<div class="small_message">Customizable short links, smart hashtag finder, analytics tool, sharing platform. All in one place.</div>
+            </div>
+          </div>
+
+          <div class="block_4">
+            <img class="all_in_one_img" src="img/all-in-one.jpg" width="245" height="245" alt="" title=""/>
+            <div class="all_in_one_title">All in one </div>
+            <div class="all_in_one_text">
+              <div class="huge_message">SHORT LINK</div>
+              <div class="list_min_icons">
+                <img src="img/icon-shortlink.svg" alt="" width="50" height="50"/>
+                <img src="img/icon-social.svg" alt="" width="50" height="50"/>
+                <img src="img/icon-clock.svg" alt="" width="50" height="50"/>
+              </div>
+    					<div class="small_message">Shorten a link to track its whereabouts on the web. Customize it to make it unique and easy to remember. Post it simultaneously across all your favorite platforms.</div>
+            </div>
+          </div>
+
+          <div class="block_5">
+            <div class="listen_and_learn_text">
+              <div class="huge_message">SMART POST</div>
+              <div class="list_min_icons">
+                <img src="img/icon-world.svg" alt="" width="50" height="50"/>
+                <img src="img/icon-user.svg" alt="" width="50" height="50"/>
+                <img src="img/icon-chatbubbles.svg" alt="" width="50" height="50"/>
+              </div>
+    					<div class="small_message">Give exposure to your posts using automatically generated captions and hashtags, based on the content of your link. Add relevant hashtags to drive more traffic.</div>
+            </div>
+            <img class="listen_and_learn_img" src="img/listen-and-learn.jpg" width="245" height="257" alt="" title=""/>
+            <img class="track_and_analyze_img" src="img/track-and-analyze.jpg" width="245" height="245" alt="" title=""/>
+            <div class="track_and_analyze_text">
+              <div class="huge_message">Deep Analysis</div>
+              <div class="list_min_icons">
+                <img src="img/icon-graph.svg" alt="" width="50" height="50"/>
+                <img src="img/icon-divisions.svg" alt="" width="50" height="50"/>
+                <img src="img/icon-bulb.svg" alt="" width="50" height="50"/>
+              </div>
+    					<div class="small_message">Measure the impact of your campaigns with post &amp; social analytics. Track how your links are spreading across the web, how they are performing and where they're popular: View it all in your analytics dashboard. It's fully detailed and free.</div>
+              <div class="link_message">Share your first link</div>
+            </div>
+          </div>
+
+          <div class="block_7">
+            <img class="smart_hashtags_img" src="img/smart-hashtags.jpg" width="384" height="384" alt="" title=""/>
+            <div class="smart_hashtags_text">
+              <div class="huge_message">Drive traffic using our smart hashtag generator</div>
+    					<div class="small_message">Jinni's proprietary algorithm reads through the link you want to share, and automatically generates a caption and 20+ relevant hashtags, to help drive more traffic and increase audience engagement. Just add a link and Jinni will find the best hashtags for you, so you don't have to. This unique feature can save you minutes per post.</div>
+            </div>
+          </div>
+
+          <div class="block_6">
+            <div class="all_your_social_networks_title">Post to all your favorite social networks at once</div>
+            <div class="list_social_network_text">Once you're ready to post, select one or more social networks to post to, including Pinterest and FB pages. Post the same message or customize the caption for each different network to add context (ie, context-rich Facebook posts or brief 140 character Tweets) Then publish in one click.</div>
+            <div class="list_social_network">
+              <img src="img/social/facebook.png" width="63" height="63" alt="" title=""/>
+              <img src="img/social/twitter.png" width="63" height="63" alt="" title=""/>
+              <img src="img/social/pinterest.png" width="63" height="63" alt="" title=""/>
+              <img src="img/social/linkedin.png" width="63" height="63" alt="" title=""/>
+              <img src="img/social/tumblr.png" width="63" height="63" alt="" title=""/>
+            </div>
+            <div class="list_social_title_blue"> Share on Pinterest, for free </div>
+            <div class="list_social_network_text">Images are a powerful thing. Did you find a page online with all those incredible photos? Just add the link to Jinni, scroll through all the avaiable images, pick your favorite and you're done!</div>
+            <div class="link_message">Share your first link</div>
+          </div>
+
+          <div class="block_8 txt_center">
+            <div class="give_it_a_try_text block_center">
+              <div class="huge_message">Ready to <br/> give it a try?</div>
+    					<div class="small_message">Jinni is most useful, and way more effective, when you connect all your social profiles.</div>
+            </div>
+            <div class="give_it_a_try_button block_center">Get started with Jinni</div>
+          </div>
+
+          <div class="block_10">
+            <img class="blog_feed_left_img" src="img/blog-feed-left.jpg" width="256" height="224" alt="" title=""/>
+            <div class="blog_feed_left_text">
+              <div class="huge_message">4 days ago</div>
+    					<div class="small_message">It took a genius to change the way you share on Social Media</div>
+            </div>
+
+            <img class="blog_feed_right_img" src="img/blog-feed-right.jpg" width="272" height="128" alt="" title=""/>
+            <div class="blog_feed_right_text">
+              <div class="huge_message">4 days ago</div>
+    					<div class="small_message">It took a genius to change the way you share on Social Media</div>
+            </div>
+          </div>
+
+          <div class="block_11 txt_center">
+            <div class="blog_button block_center">Our blog</div>
+          </div>
+
+				</div>
+				<!-- / BEGIN WHITE PAGE -->
+
+        <!-- FOOTER -->
+        <div class="jinni_footer txt_center">
+          <div class="links">
+            <a href="#" title="">Terms of use</a> &middot;
+            <a href="#" title="">Privacy</a> &middot;
+            <a href="#" title="">Contact us</a>
+          </div>
+          <div class="copyright">All Rights Served by jinni (c) 2016</div>
+        </div>
+        <!-- / FOOTER -->
+
+			</div>
+		<!-- / BODY PAGE -->
+  </div>
+
+  <!-- MENU -->
+  <div id="jinni_menu_box" class="txt_center" style="left:100%; opacity:0;">
+    <img id="jinni_menu_close" src="img/menu/close.png" alt="" title=""/>
+
+    <div id="jinni_menu_voices">
+      <div class="voice">Feature &amp; Tour</div>
+      <div class="voice">Sign in</div>
+      <div class="voice">Blog</div>
+      <div class="voice">Contact</div>
+    </div>
+  </div>
+  <!-- / MENU -->
+
+  <!-- SIGNIN -->
+  <div id="jinni_signin_transparent" class="txt_center jinni_background_transparent" style="left:100%; opacity:0;">&nbsp;</div>
+  <div id="jinni_signin" class="txt_center jinni_signin" style="left:100%; opacity:0;">
+    <div id="jinni_signin_close" class="jinni_signin_close">&nbsp;</div>
+    <div id="jinni_signin_box" class="jinni_signin_box">
+      <img id="jinni_signin_close_button" class="signin_close" src="img/menu/dark_close.png" width="25" height="25" alt="" title=""/>
+      <div class="title">Sign In</div>
+      <div class="button facebook">Connect with Facebook</div>
+      <div class="normal">OR</div>
+      <div class="input"><input type="text" id="JinniEmail" placeholder="Email"/></div>
+      <div class="input"><input type="password" id="JinniPassword" placeholder="Password"/></div>
+      <div id="JinniError" class="normal error" style="display:none;">Username or email not recognized</div>
+      <div id="JinniLogin" class="button login">Login</div>
+      <div class="normal">If you don't have an account <span id="jinni_sign_up_button">Sign Up</span></div>
+    </div>
+  </div>
+  <!-- / SIGNIN -->
+
+  <!-- SIGNUP -->
+  <div id="jinni_signup_transparent" class="txt_center jinni_background_transparent" style="left:100%; opacity:0;">&nbsp;</div>
+  <div id="jinni_signup" class="txt_center jinni_signin" style="left:100%; opacity:0;">
+    <div id="jinni_signup_close" class="jinni_signin_close">&nbsp;</div>
+    <div id="jinni_signup_box" class="jinni_signin_box">
+      <img id="jinni_signup_close_button" class="signin_close" src="img/menu/dark_close.png" width="25" height="25" alt="" title=""/>
+      <div class="title">Sign Up</div>
+      <div class="button facebook">Connect with Facebook</div>
+      <div class="normal">OR</div>
+      <div class="input"><input type="text" id="JinniUpName" placeholder="Name"/></div>
+      <div class="input"><input type="text" id="JinniUpEmail" placeholder="Email"/></div>
+      <div class="input"><input type="password" id="JinniUpPassword" placeholder="Password"/></div>
+      <div id="JinniUpError" class="normal error" style="display:none;">Password should be minimun 6 chars length</div>
+      <div class="terms_and_conditions">By Sign up, you accept our <span id="JinniUpTermsAndConditions">Terms and Conditions</span></div>
+      <div id="JinniUpSignUp" class="button login">Sign Up</div>
+      <div class="normal">If you already have an account, <span id="jinni_sign_in_button">Log in</span></div>
+    </div>
+  </div>
+  <!-- / SIGNUP -->
+
+  <!-- SIGNUP CONFIRMATION -->
+  <div id="jinni_signup_conf_transparent" class="txt_center jinni_background_transparent" style="left:100%; opacity:0;">&nbsp;</div>
+  <div id="jinni_signup_conf" class="txt_center jinni_signin" style="left:100%; opacity:0;">
+    <div id="jinni_signup_conf_close" class="jinni_signin_close">&nbsp;</div>
+    <div id="jinni_signup_conf_box">
+      <img id="jinni_signup_conf_close_button" class="signin_close" src="img/menu/dark_close.png" width="25" height="25" alt="" title=""/>
+      <div class="green_block">
+        <div class="title">Welcome on board <br/> <span id="JinniConfName">ROBERTO</span></div>
+        <div class="descr">We send a confirmation email to <br/> <span id="JinniConfEmail">youremail@domain.com</span></div>
+        <div id="JinniConfResend">Resend</div>
+      </div>
+      <div class="white_block">
+        <div class="title">Get our news</div>
+        <div class="descr">Subscribe our newsletter</div>
+        <div class="input"><input type="text" id="JinniConfNewsLetter" placeholder="Email"/></div>
+        <div id="JinniConfSubscribe" class="button subscribe">Subscribe</div>
+        <div id="JinniConfNoThanks" class="button no_thanks">No thanks</div>
+      </div>
+    </div>
+  </div>
+  <!-- / SIGNUP CONFIRMATION -->
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+@font-face {
+  font-family: RooneySansBlackItalic;
+  src:	url("../fonts/RooneySans/rooney sans black italic.otf"),
+		url("../fonts/RooneySans/Rooney Sans Black Italic.woff");
+}
+
+@font-face {
+  font-family: RooneySansBlack;
+  src:	url("../fonts/RooneySans/rooney sans black.otf"),
+		url("../fonts/RooneySans/Rooney Sans Black.woff");
+}
+
+@font-face {
+  font-family: RooneySansBlack;
+  src:	url("../fonts/RooneySans/rooney sans black.otf"),
+		url("../fonts/RooneySans/Rooney Sans Black.woff");
+}
+
+@font-face {
+  font-family: RooneySansBold;
+  src:	url("../fonts/RooneySans/rooney sans bold.otf"),
+		url("../fonts/RooneySans/Rooney Sans Bold.woff");
+}
+
+@font-face {
+  font-family: RooneySansHeavyItalic;
+  src:	url("../fonts/RooneySans/rooney sans heavy italic.otf"),
+		url("../fonts/RooneySans/Rooney Sans Heavy Italic.woff");
+}
+
+@font-face {
+  font-family: RooneySansHeavy;
+  src:	url("../fonts/RooneySans/rooney sans heavy.otf"),
+		url("../fonts/RooneySans/Rooney Sans Heavyd.woff");
+}
+
+@font-face {
+  font-family: RooneySansItalic;
+  src:	url("../fonts/RooneySans/rooney sans italic.otf"),
+		url("../fonts/RooneySans/Rooney Sans Italic.woff");
+}
+
+@font-face {
+  font-family: RooneySansLightItalic;
+  src:	url("../fonts/RooneySans/rooney sans light italic.otf"),
+		url("../fonts/RooneySans/Rooney Sans Light Italic.woff");
+}
+
+@font-face {
+  font-family: RooneySansLight;
+  src:	url("../fonts/RooneySans/rooney sans light.otf"),
+		url("../fonts/RooneySans/Rooney Sans Light.woff");
+}
+
+@font-face {
+  font-family: RooneySansMediumItalic;
+  src:	url("../fonts/RooneySans/rooney sans medium italic.otf"),
+		url("../fonts/RooneySans/Rooney Sans Medium Italic.woff");
+}
+
+@font-face {
+  font-family: RooneySansMedium;
+  src:	url("../fonts/RooneySans/rooney sans medium.otf"),
+		url("../fonts/RooneySans/Rooney Sans Medium.woff");
+}
+
+@font-face {
+  font-family: RooneySans;
+  src:	url("../fonts/RooneySans/rooney sans.otf"),
+		url("../fonts/RooneySans/Rooney Sans.woff");
+}

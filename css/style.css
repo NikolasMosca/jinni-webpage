@@ -1,0 +1,476 @@
+/* ANIMATIONS */
+#top_url_shortener :focus #top_http{ display:none; }
+
+/* PLACEHOLDER */
+::-webkit-input-placeholder { font-family:RooneySansLight; font-size:20px; color:#dcdcdc; }
+::-moz-input-placeholder { font-family:RooneySansLight; font-size:20px; color:#dcdcdc; }
+::-ms-input-placeholder { font-family:RooneySansLight; font-size:20px; color:#dcdcdc; }
+:focus { outline: 0; }
+* { padding:0px; margin:0px; }
+
+body { font-family:RooneySans; background:#f4f4f4!important; overflow-x:hidden; }
+
+.fixed { position:fixed; }
+.pointer { cursor:pointer; }
+.overflowX { position:relative; overflow-x:hidden; }
+.overflow { position:relative; overflow:hidden; }
+.jinni_body { margin-left:auto; margin-right:auto; }
+.txt_center { text-align:center; }
+.block_center { margin-left:auto; margin-right:auto; }
+.list_min_icons { display:none; }
+
+/* PEZZO DI GRANDIENT ALL'INIZIO DELL'IMMAGINE */
+.background_gradient { background: rgba(103,198,185,1);
+background: -moz-linear-gradient(-45deg, rgba(103,198,185,1) 0%, rgba(103,198,185,1) 32%, rgba(0,174,237,1) 50%, rgba(0,174,237,1) 68%, rgba(69,123,189,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(103,198,185,1)), color-stop(32%, rgba(103,198,185,1)), color-stop(50%, rgba(0,174,237,1)), color-stop(68%, rgba(0,174,237,1)), color-stop(100%, rgba(69,123,189,1)));
+background: -webkit-linear-gradient(-45deg, rgba(103,198,185,1) 0%, rgba(103,198,185,1) 32%, rgba(0,174,237,1) 50%, rgba(0,174,237,1) 68%, rgba(69,123,189,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(103,198,185,1) 0%, rgba(103,198,185,1) 32%, rgba(0,174,237,1) 50%, rgba(0,174,237,1) 68%, rgba(69,123,189,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(103,198,185,1) 0%, rgba(103,198,185,1) 32%, rgba(0,174,237,1) 50%, rgba(0,174,237,1) 68%, rgba(69,123,189,1) 100%);
+background: linear-gradient(135deg, rgba(103,198,185,1) 0%, rgba(103,198,185,1) 32%, rgba(0,174,237,1) 50%, rgba(0,174,237,1) 68%, rgba(69,123,189,1) 100%); }
+
+.top_color { position:absolute; top:0px; left:0px; width:100%; height:1124px; overflow-x: hidden;}
+
+/* BODY PAGE */
+.box_top { position:relative; width:100%; height:57px; margin-top:30px; }
+
+.box_top_message { width:100%; height:165px; margin-top:90px; text-align:center; }
+.box_top_message .huge_message { font-family:RooneySansLight; font-size:38px; color:#ffffff; }
+.box_top_message .small_message { font-family:RooneySans; font-size:16px; color:#ffffff; }
+.box_top_message .shortener { margin-left:auto; margin-right:auto; }
+.box_top_message .shortener .http { position:absolute; top:0px; left:27px; height:100%; line-height:46px; font-family:RooneySansLight; font-size:20px; }
+.box_top_message .shortener input { border:none; background:none; text-align:center; width:100%; height:100%; font-family:"proxima-nova"; font-weight:lighter; font-size:20px; color:#444444; }
+
+/* BEGIN WHITE */
+.box_white { position:relative; background:#ffffff; width:100%; margin-top:46px; padding-top:65px; }
+.box_white .block_1 { position:relative; min-height:115px; }
+.box_white .block_1 .huge_message { color:#000000; font-family:RooneySansLight; font-size:38px; margin-bottom:36px; text-transform:uppercase; }
+.box_white .block_1 .small_message { color:#444444; font-family:"proxima-nova"; font-weight:lighter; font-size:20px; margin-bottom:32px; }
+
+.box_white .block_2 { position:relative; margin-top:50px; width:100%; min-height:333px; }
+
+.box_white .block_3 { position:relative; margin-top:120px; width:100%; min-height:384px; }
+.box_white .block_3 .huge_message { color:#000000; font-family:"proxima-nova"; font-weight:bold; font-size:58px; line-height:45px; margin-bottom:44px; text-transform:uppercase; }
+.box_white .block_3 .small_message { color:#444444; font-family:"proxima-nova"; font-weight:lighter; font-size:16px; line-height:33px; }
+
+.box_white .block_4 { position:relative; margin-top:120px; width:100%; min-height:245px; }
+.box_white .block_4 .all_in_one_text .huge_message { color:#050505; font-family:"proxima-nova"; font-weight:bold; font-size:16px; text-transform:uppercase; margin-bottom:5px; }
+.box_white .block_4 .all_in_one_text .small_message { color:#050505; font-family:"proxima-nova"; font-weight:lighter; font-size:14px; line-height:20px; }
+
+.box_white .block_5 { position:relative; margin-top:16px; width:100%; min-height:363px; }
+.box_white .block_5 .listen_and_learn_text .huge_message { color:#050505; font-family:"proxima-nova"; font-weight:bold; font-size:16px; text-transform:uppercase; margin-bottom:5px; }
+.box_white .block_5 .listen_and_learn_text .small_message { color:#050505; font-family:"proxima-nova"; font-weight:lighter; font-size:14px; line-height:24px; }
+
+.box_white .block_5 .track_and_analyze_text .huge_message { color:#050505; font-family:"proxima-nova"; font-weight:bold; font-size:16px; text-transform:uppercase; margin-bottom:5px; }
+.box_white .block_5 .track_and_analyze_text .small_message { color:#444444; font-family:"proxima-nova"; font-weight:lighter; font-size:14px; line-height:24px; }
+
+.box_white .block_7 .smart_hashtags_text .huge_message { color:#000000; font-family:"proxima-nova"; font-weight:bold; font-size:16px; line-height:20px; text-transform:uppercase; margin-bottom:32px; }
+.box_white .block_7 .smart_hashtags_text .small_message { color:#050505; font-family:"proxima-nova"; font-weight:lighter; font-size:16px; line-height:28px; }
+
+.box_white .block_8 { position:relative; margin-top:90px; width:100%; min-height:250px; }
+.box_white .block_8 .give_it_a_try_text .huge_message { color:#000000; font-family:"proxima-nova"; font-weight:bold; font-size:58px; line-height:45px; text-transform:uppercase; margin-bottom:15px; }
+.box_white .block_8 .give_it_a_try_text .small_message { color:#050505; font-family:"proxima-nova"; font-weight:normal; font-size:16px; }
+.give_it_a_try_button { margin-top:15px; width:260px; height:65px; background:#ff9600; border-radius:3px; color:white; line-height:65px; text-transform:uppercase; font-family:"proxima-nova"; font-weight:bold; font-size:16px; cursor:pointer; }
+
+.box_white .block_9 { position:relative; margin-top:140px; width:100%; min-height:460px; }
+.box_white .block_9 .about_us_text .huge_message { color:#000000; font-family:"proxima-nova"; font-weight:bold; font-size:58px; line-height:45px; text-transform:uppercase; margin-bottom:45px; }
+.box_white .block_9 .about_us_text .small_message { color:#050505; font-family:"proxima-nova"; font-weight:normal; font-size:14px; line-height:23px; }
+
+.box_white .block_9 .about_us_profiles .profile_text span { color:#000000; font-family:"proxima-nova"; font-weight:bold; font-size:15px; text-transform:uppercase; }
+.box_white .block_9 .about_us_profiles .profile_text { text-align:center; color:#000000; font-family:"proxima-nova"; font-weight:normal; font-size:16px; }
+
+.box_white .block_10 .blog_feed_left_text .huge_message { color:#888888; font-family:"proxima-nova"; font-weight:normal; font-size:12px; text-transform:uppercase; }
+.box_white .block_10 .blog_feed_left_text .small_message { color:#000000; font-family:"proxima-nova"; font-weight:bold; font-size:16px; text-transform:uppercase; }
+.box_white .block_10 .blog_feed_right_text .huge_message { color:#888888; font-family:"proxima-nova"; font-weight:normal; font-size:12px; text-transform:uppercase; }
+.box_white .block_10 .blog_feed_right_text .small_message { color:#000000; font-family:"proxima-nova"; font-weight:bold; font-size:16px; text-transform:uppercase; }
+
+.box_white .block_11 .blog_button { width:260px; min-height:65px; line-height:65px; border-radius:3px; border:2px solid #e1e1e1; color:#b7b7b7; font-family:"proxima-nova"; font-weight:bold; font-size:16px; text-transform:uppercase; cursor:pointer; margin-bottom:47px; }
+
+.jinni_footer { margin-top:30px; margin-bottom:30px; font-family:"proxima-nova"; font-weight:normal; font-size:14px; }
+.jinni_footer a { margin-left:8px; margin-right:8px; color:#fe9500; text-decoration:none; }
+.jinni_footer .copyright { margin-top:16px; color:#444444; }
+
+/* MENU */
+#jinni_menu_box { position:fixed; width:100%;height:100%; top:0px; z-index:200; background:#000000; color:#ffffff;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+#jinni_menu_box #jinni_menu_close { position:absolute; z-index:210; }
+#jinni_menu_box #jinni_menu_voices { position:absolute; width:100%; height:300px; top:50%; margin-top:-150px; z-index:210; }
+#jinni_menu_box #jinni_menu_voices .voice { font-family:RooneySans; font-size:32px; margin-bottom:45px; text-transform:uppercase; cursor:pointer; } /*METTERE IL PROXIMA NOVA REGULAR*/
+
+/* TOOLBAR */
+#jinni_toolbar { background:#ffffff; height:80px; width:100%; top:-200px; left:0px; z-index:100;
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+
+  -webkit-box-shadow: 0px 6px 30px 0px rgba(50, 50, 50, 0.45);
+  -moz-box-shadow:    0px 6px 30px 0px rgba(50, 50, 50, 0.45);
+  box-shadow:         0px 6px 30px 0px rgba(50, 50, 50, 0.45);
+}
+#jinni_toolbar .jinni_body { margin-left:auto; margin-right:auto; }
+#jinni_toolbar .shortener input { border:none; background:none; text-align:center; width:100%; height:100%; font-family:RooneySansLight; font-size:20px; }
+#jinni_toolbar .jinni_login { float:left; width:32px; height:32px; margin-top:24px; margin-right:25px; }
+#jinni_toolbar .jinni_menu { float:left; width:25px; height:22px; margin-top:29px; }
+
+.main_share { position:relative; margin-left:auto; margin-right:auto; border-radius:3px; background:#111111; }
+.share_jinni { color:#ffffff; line-height:46px; width:100%; text-align:center; font-size:20px; font-family:RooneySansLight; }
+.share_copy { float:right; text-align:center; border-radius:3px; border:2px solid #868c88; color:#868c88; text-transform:uppercase; width:160px; height:40px; line-height:40px; margin-top:5px; margin-right:8px; cursor:pointer; }
+.share_button { float:right; text-align:center; background:#ff9600; border-radius:3px; color:white; width:160px; height:40px; line-height:40px; text-transform:uppercase; margin-top:7px; margin-right:94px; cursor:pointer; }
+
+.move_up {
+  -webkit-transform:translate(0px,-200px);
+  -moz-transform:translate(0px,-200px);
+  -ms-transform:translate(0px,-200px);
+  -o-transform:translate(0px,-200px);
+  transform:translate(0px,-200px);
+}
+.move_down {
+  -webkit-transform:translate(0px,200px);
+  -moz-transform:translate(0px,200px);
+  -ms-transform:translate(0px,200px);
+  -o-transform:translate(0px,200px);
+  transform:translate(0px,200px);
+}
+
+/* SIGNIN / SIGNUP / CONFIRMATION */
+.jinni_background_transparent { position:fixed; width:100%; height:100%; top:0px; z-index:200; background:#000000; color:#ffffff;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+.jinni_signin { position:fixed; width:100%; height:100%; top:0px; z-index:205; color:#000000;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.jinni_signin_close { position:absolute; top:0px; left:0px; width:100%; height:100%; }
+
+/*.jinni_signin_box div{ width:100%; border-radius:5px; height:48px; font-family:"proxima-nova"; margin-bottom:16px; line-height:48px; }*/
+.jinni_signin_box .title { font-size:20px; font-weight:bold; text-transform:uppercase; }
+.jinni_signin_box .button { font-size:12px; font-weight:bold; color:#ffffff; text-transform:uppercase; cursor:pointer; }
+.jinni_signin_box .normal { font-size:16px; font-weight:normal; height:16px; line-height:16px; }
+.jinni_signin_box .normal span { color:#ff9600; cursor:pointer; }
+.jinni_signin_box .error { font-size:14px; color:#fd0000; }
+.jinni_signin_box .terms_and_conditions { font-size:12px; color:#444444; font-weight:normal; height:16px; line-height:16px; }
+.jinni_signin_box .terms_and_conditions span { font-size:12px; color:#ff9600; }
+.jinni_signin_box .facebook { background:#3a5999; }
+.jinni_signin_box .login { background:#ff9600; }
+.jinni_signin_box .input input::-webkit-input-placeholder { font-size:16px; color:#e1e1e1; }
+.jinni_signin_box .input input::-moz-input-placeholder { font-size:16px; color:#e1e1e1; }
+.jinni_signin_box .input input::-ms-input-placeholder { font-size:16px; color:#e1e1e1; }
+
+#jinni_signup_conf_box .green_block { width:100%; height:156px; background:#8dc63f; font-family:"proxima-nova"; color:#ffffff; padding-top:50px; }
+#jinni_signup_conf_box .green_block .title { font-size:20px; font-weight:bold; text-transform:uppercase; margin-bottom:24px; }
+#jinni_signup_conf_box .green_block .descr { font-size:12px; font-weight:normal; margin-bottom:16px; }
+#jinni_signup_conf_box .green_block #JinniConfEmail { font-weight:bold; }
+#jinni_signup_conf_box .green_block #JinniConfResend { font-size:12px; cursor:pointer; }
+
+#jinni_signup_conf_box .white_block { width:100%; font-family:"proxima-nova"; color:#000000; }
+#jinni_signup_conf_box .white_block .title { margin-top:16px; font-weight:bold; font-size:20px; text-transform:uppercase; }
+#jinni_signup_conf_box .white_block .descr { font-weight:normal; font-size:16px; color:#444444; }
+#jinni_signup_conf_box .button { font-size:12px; font-weight:bold; color:#ffffff; text-transform:uppercase; cursor:pointer; margin-top:16px; }
+#jinni_signup_conf_box .subscribe { background:#ff9600; }
+#jinni_signup_conf_box .no_thanks { background:transparent; color:#ff9600; }
+
+#jinni_signup_conf_box .input input::-webkit-input-placeholder { font-size:16px; color:#e1e1e1; }
+#jinni_signup_conf_box .input input::-moz-input-placeholder { font-size:16px; color:#e1e1e1; }
+#jinni_signup_conf_box .input input::-ms-input-placeholder { font-size:16px; color:#e1e1e1; }
+/*
+================================================================================
+================================= DESKTOP ======================================
+================================================================================
+*/
+@media screen and (min-width: 1024px) {
+  #jinni_menu_box #jinni_menu_close { right:65px; top:45px; }
+  .jinni_body { position:relative; width:900px; height:100%; }
+
+  /* TOOLBAR */
+  #jinni_toolbar .logo { position:relative; margin-left:16px; margin-top:17px; margin-right:70px; float:left; }
+  #jinni_toolbar .shortener { position:relative; width:516px; height:46px; background:#f4f4f4; border-radius:3px; float:left; margin-top:17px; margin-right:100px; }
+  #jinni_toolbar .shortener .http { position:absolute; top:0px; left:27px; height:100%; line-height:46px; font-family:RooneySansLight; font-size:20px; }
+
+  .main_share { width:516px; height:110px; }
+
+  /* SIGNIN */
+  #jinni_signin_box { width:310px; height:418px; top:50%; margin-top:-208px; left:50%; margin-left:-182px; }
+  #jinni_signup_box { width:310px; height:544px; top:50%; margin-top:-272px; left:50%; margin-left:-182px; }
+  #jinni_signup_conf_box { position:absolute; z-index:210; background:#ffffff; width:374px; height:512px; top:50%; margin-top:-256px; left:50%; margin-left:-182px; text-align:center; }
+  .signin_close { display:none; }
+
+  .jinni_signin_box { position:absolute; z-index:210; background:#ffffff; padding-left:32px; padding-right:32px; text-align:center; }
+  .jinni_signin_box div{ width:100%; border-radius:5px; height:48px; font-family:"proxima-nova"; margin-bottom:16px; line-height:48px; }
+  .jinni_signin_box .input input{ font-size:16px; font-weight:normal; border:2px solid #e1e1e1; padding-left:16px; padding-right:16px; color:#000000; width:278px; height:100%; border-radius:5px; }
+  #jinni_signup_conf_box .white_block div { width:310px; margin-left:32px; margin-right:32px; height:48px; line-height:48px; }
+  #jinni_signup_conf_box .input input{ font-size:16px; font-weight:normal; border:2px solid #e1e1e1; padding-left:16px; padding-right:16px; color:#000000; width:278px; height:100%; border-radius:5px; }
+
+  /* BLOCK 1 */
+  .box_white .block_1 .huge_message { margin-left:100px; margin-right:100px; }
+  .box_white .block_1 .small_message { margin-left:100px; margin-right:100px; }
+  .box_top .logo_white { position:absolute; top:0px; left:16px; }
+  .box_top .jinni_login { position:absolute; top:0px; right:64px; width:32px; height:32px; margin-top:12px;  }
+  .box_top .jinni_menu { position:absolute; top:0px; right:16px; width:25px; height:22px; margin-top:16px; }
+  .box_top_message .shortener { position:relative; width:516px; height:46px; background:#ffffff; border-radius:3px; margin-top:50px; }
+  .box_top_arrow_down { margin-top:55px; }
+
+  /* BLOCK 2 */
+  .box_white .block_2 .card_1 { z-index:1; position:absolute; top:31px; left:11px; }
+  .box_white .block_2 .card_2 { z-index:2; position:absolute; top:-6px; left:50%; margin-left:-290px; }
+  .box_white .block_2 .card_3 { z-index:3; position:absolute; top:-36px; left:50%; margin-left:-132px; }
+  .box_white .block_2 .card_4 { z-index:2; position:absolute; top:-6px; right:50%; margin-right:-290px; }
+  .box_white .block_2 .card_5 { z-index:1; position:absolute; top:31px; right:13px; }
+
+  /* BLOCK 3 */
+  .box_white .block_3 .fast_and_smart_img { float:left; margin-left:64px; margin-right:64px; }
+  .box_white .block_3 .fast_and_smart_text { float:left; width:266px; height:285px; margin-top:32px; }
+
+  /* BLOCK 4 */
+  .box_white .block_4 .all_in_one_img { float:left; margin-left:64px; margin-right:24px; }
+  .box_white .block_4 .all_in_one_text { float:left; width:205px; margin-top:40px;}
+  .box_white .block_4 .all_in_one_title { float:right; color:#000000; width:180px; font-family:"proxima-nova"; font-weight:bold; font-size:58px; line-height:45px; text-align:right; margin-right:64px; margin-top:64px; text-transform:uppercase; margin-bottom:38px; }
+
+  /* BLOCK 5 */
+  .box_white .block_5 .listen_and_learn_img { float:left; margin-left:16px; margin-right:16px; }
+  .box_white .block_5 .listen_and_learn_text { float:left; padding-left:60px; width:185px; margin-left:64px; margin-top:47px; text-align:right; }
+  .box_white .block_5 .track_and_analyze_text { float:right; width:245px; min-height:90px; margin-top:20px; margin-right:64px; text-align:left; }
+  .box_white .block_5 .track_and_analyze_img { float:left; margin-right:64px; }
+  .box_white .block_5 .link_message { font-size:14px; color:#ff9600; text-transform:uppercase; margin-top:24px; }
+
+  /* BLOCK 6 */
+  .box_white .block_6 { position:relative; margin-top:92px; width:100%; min-height:360px; }
+  .box_white .block_6 .all_your_social_networks_title { color:#000000; width:320px; font-family:"proxima-nova"; font-weight:bold; font-size:16px; line-height:24px; margin-left:190px; text-transform:uppercase; }
+  .box_white .block_6 .list_social_network { margin-left:190px; margin-top:40px; margin-bottom:40px; }
+  .box_white .block_6 .list_social_network img { margin-right:32px; }
+  .box_white .block_6 .list_social_title_blue { margin-left:190px; font-family:"proxima-nova"; font-weight:bold; font-size:16px; color:#5db4c7; text-transform: uppercase; }
+  .box_white .block_6 .list_social_network_text { margin-left:190px; margin-top:22px; width:430px; color:#050505; font-family:"proxima-nova"; font-weight:normal; font-size:14px; line-height:24px; }
+  .box_white .block_6 .link_message { margin-left:190px; font-size:14px; color:#ff9600; text-transform:uppercase; margin-top:24px; }
+
+  /* BLOCK 7 */
+  .box_white .block_7 { position:relative; margin-top:230px; width:100%; min-height:385px; }
+  .box_white .block_7 .smart_hashtags_text { float:left; width:320px; margin-left:100px; margin-top:30px; margin-right:8px; }
+  .box_white .block_7 .smart_hashtags_img { float:right; margin-right:64px; }
+
+  /* BLOCK 8 */
+  .box_white .block_8 .give_it_a_try_text { width:640px; min-height:160px; }
+
+  /* BLOCK 9 */
+  .box_white .block_9 .about_us_text { width:640px; min-height:170px; }
+  .box_white .block_9 .about_us_profiles { width:640px; min-height:220px; margin-top:70px; }
+  .box_white .block_9 .about_us_profiles .profile { float:left; width:33.33%; height:220px; }
+
+  /* BLOCK 10 */
+  .box_white .block_10 { height:230px; margin-top:80px; }
+  .box_white .block_10 .blog_feed_left_img { float:left; margin-left:64px; }
+  .box_white .block_10 .blog_feed_left_text { float:left; width:160px; margin-left:32px; margin-top:16px; }
+
+  .box_white .block_10 .blog_feed_right_img { float:left; margin-left:52px; margin-right:64px; }
+  .box_white .block_10 .blog_feed_right_text { float:right; width:200px; padding-right:72px; margin-right:64px; margin-top:16px; }
+
+  /* BLOCK 11 */
+  .box_white .block_11 { height:112px; margin-top:80px; }
+}
+
+/*
+================================================================================
+================================== TABLET ======================================
+================================================================================
+*/
+@media screen and (min-width: 765px) and (max-width: 1024px) {
+  #jinni_menu_box #jinni_menu_close { right:32px; top:32px; }
+  .jinni_body { position:relative; width:710px; height:100%; }
+
+  /* TOOLBAR */
+  #jinni_toolbar .logo { position:relative; margin-left:47px; margin-top:17px; margin-right:50px; float:left; }
+  #jinni_toolbar .shortener { position:relative; width:300px; height:46px; background:#f4f4f4; border-radius:3px; float:left; margin-top:17px; margin-right:75px; }
+  #jinni_toolbar .shortener .http { display:none; }
+
+  #top_share { width:300px; }
+  #top_share_button { display:none; }
+  #main_share { width:516px; }
+  .main_share { height:110px; }
+  #top_share_copy { margin-right:70px; }
+
+  /* SIGNIN */
+  #jinni_signin_box { width:310px; height:418px; top:50%; margin-top:-208px; left:50%; margin-left:-182px; }
+  #jinni_signup_box { width:310px; height:544px; top:50%; margin-top:-272px; left:50%; margin-left:-182px; }
+  #jinni_signup_conf_box { position:absolute; z-index:210; background:#ffffff; width:374px; height:512px; top:50%; margin-top:-256px; left:50%; margin-left:-182px; text-align:center; }
+  .signin_close { display:none; }
+
+  .jinni_signin_box { position:absolute; z-index:210; background:#ffffff; padding-left:32px; padding-right:32px; text-align:center; }
+  .jinni_signin_box div{ width:100%; border-radius:5px; height:48px; font-family:"proxima-nova"; margin-bottom:16px; line-height:48px; }
+  .jinni_signin_box .input input{ font-size:16px; font-weight:normal; border:2px solid #e1e1e1; padding-left:16px; padding-right:16px; color:#000000; width:278px; height:100%; border-radius:5px; }
+  #jinni_signup_conf_box .white_block div { width:310px; margin-left:32px; margin-right:32px; height:48px; line-height:48px; }
+  #jinni_signup_conf_box .input input{ font-size:16px; font-weight:normal; border:2px solid #e1e1e1; padding-left:16px; padding-right:16px; color:#000000; width:278px; height:100%; border-radius:5px; }
+
+  /* BLOCK 1 */
+  .box_top .logo_white { position:absolute; top:0px; left:32px; }
+  .box_top .jinni_login { position:absolute; top:0px; right:85px; width:32px; height:32px; margin-top:12px;  }
+  .box_top .jinni_menu { position:absolute; top:0px; right:32px; width:25px; height:22px; margin-top:16px; }
+  .box_top_message .shortener { position:relative; width:516px; height:46px; background:#ffffff; border-radius:3px; margin-top:50px; }
+  .box_top_arrow_down { margin-top:55px; }
+
+  /* BLOCK 2 */
+  .box_white .block_2 .card_1 { z-index:1; position:absolute; top:31px; left:-64px; }
+  .box_white .block_2 .card_2 { z-index:2; position:absolute; top:-6px; left:50%; margin-left:-290px; }
+  .box_white .block_2 .card_3 { z-index:3; position:absolute; top:-36px; left:50%; margin-left:-132px; }
+  .box_white .block_2 .card_4 { z-index:2; position:absolute; top:-6px; right:50%; margin-right:-290px; }
+  .box_white .block_2 .card_5 { z-index:1; position:absolute; top:31px; right:-64px; }
+
+  /* BLOCK 3 */
+  .box_white .block_3 .fast_and_smart_img { float:left; margin-left:32px; margin-right:32px; width:320px; height:320px; }
+  .box_white .block_3 .fast_and_smart_text { float:left; width:275px; height:285px; margin-top:32px; }
+
+  /* BLOCK 4 */
+  .box_white .block_4 .all_in_one_img { float:left; margin-left:32px; margin-right:32px; }
+  .box_white .block_4 .all_in_one_text { float:left; width:170px;  margin-top:48px;}
+  .box_white .block_4 .all_in_one_title { float:right; color:#000000; width:170px; font-family:"proxima-nova"; font-weight:bold; font-size:58px; line-height:45px; text-align:right; margin-right:32px; margin-top:64px; text-transform:uppercase; margin-bottom:38px; }
+  /* BLOCK 5 */
+  .box_white .block_5 .listen_and_learn_text { float:left; padding-left:190px; width:185px; margin-left:32px; margin-right:16px; margin-top:47px; text-align:right; }
+  .box_white .block_5 .listen_and_learn_img { float:left; margin-right:32px; }
+  .box_white .block_5 .track_and_analyze_text { float:right; width:245px; min-height:90px; margin-top:20px; margin-right:64px; text-align:left; }
+  .box_white .block_5 .track_and_analyze_img { float:left; margin-left:128px; margin-right:16px; }
+
+  /* BLOCK 6 */
+  .box_white .block_6 { position:relative; margin-top:250px; width:100%; min-height:360px; }
+  .box_white .block_6 .all_your_social_networks_title { color:#000000; width:320px; font-family:"proxima-nova"; font-weight:bold; font-size:58px; line-height:45px; margin-left:125px; text-transform:uppercase; margin-bottom:45px; }
+  .box_white .block_6 .list_social_network { margin-left:125px; }
+  .box_white .block_6 .list_social_network img { margin-right:32px; }
+  .box_white .block_6 .list_social_network_text { margin-left:125px; margin-top:32px; width:260px; color:#050505; font-family:"proxima-nova"; font-weight:normal; font-size:14px; line-height:33px; }
+
+  /* BLOCK 7 */
+  .box_white .block_7 { position:relative; margin-top:90px; width:100%; height:305px; }
+  .box_white .block_7 .smart_hashtags_text { float:left; width:320px; margin-left:32px; margin-top:30px; margin-right:32px; }
+  .box_white .block_7 .smart_hashtags_img { float:right; margin-right:32px; width:289px; height:289px; }
+
+  /* BLOCK 8 */
+  .box_white .block_8 .give_it_a_try_text { width:640px; height:160px; }
+
+  /* BLOCK 9 */
+  .box_white .block_9 .about_us_text { width:640px; height:170px; }
+  .box_white .block_9 .about_us_profiles { width:100%; height:220px; margin-top:70px; }
+  .box_white .block_9 .about_us_profiles .profile { float:left; width:33.33%; height:220px; }
+
+  /* BLOCK 10 */
+  .box_white .block_10 { height:230px; margin-top:80px; }
+  .box_white .block_10 .blog_feed_left_img { float:left; margin-left:32px; width:230px; height:200px; }
+  .box_white .block_10 .blog_feed_left_text { float:left; width:140px; margin-left:16px; margin-top:16px; }
+
+  .box_white .block_10 .blog_feed_right_img { float:left; margin-left:30px; margin-right:32px; width:226px; height:128px; }
+  .box_white .block_10 .blog_feed_right_text { float:right; width:200px; padding-right:26px; margin-right:32px; margin-top:16px; }
+
+  /* BLOCK 11 */
+  .box_white .block_11 { height:112px; margin-top:32px; }
+}
+
+/*
+================================================================================
+================================== MOBILE ======================================
+================================================================================
+*/
+@media screen and (max-width: 765px) {
+  #jinni_menu_box #jinni_menu_close { right:32px; top:32px; }
+  .jinni_body { position:relative; width:100%; height:100%; }
+
+  .list_min_icons { position:relative; display:block; width:100%; margin-bottom:16px; }
+
+  .block_1 { margin-left:32px; margin-right:32px; }
+
+  /* TOOLBAR */
+  #jinni_toolbar .logo { position:relative; margin-left:47px; margin-top:17px; margin-right:88px; float:left; }
+  #jinni_toolbar .shortener { display:none; }
+  #jinni_toolbar .jinni_menu { position:absolute; top:0px; right:32px; width:25px; height:22px; }
+  #jinni_toolbar .jinni_login { position:absolute; top:0px; right:64px; }
+  .http { display:none; }
+
+  #top_share { display:none; }
+  .main_share { display:none; }
+  .share_button { display:none; }
+
+  /* SIGNIN */
+  #jinni_signin_box { width:90%; padding-left:5%; padding-right:5%; height:380px; top:50%; margin-top:-190px; }
+  #jinni_signup_box { width:90%; padding-left:5%; padding-right:5%; height:450px; top:50%; margin-top:-225px; }
+  #jinni_signup_conf_box { position:absolute; z-index:210; background:#ffffff; width:100%; height:512px; top:50%; margin-top:-256px; text-align:center; }
+  #jinni_signup_conf_box .white_block { width:90%; padding-left:5%; padding-right:5%; }
+  .signin_close { position:absolute; right:10px; top:10px; }
+
+  .jinni_signin_box { position:absolute; width:100%; z-index:210; background:#ffffff; text-align:center; }
+  .jinni_signin_box div{ width:100%; border-radius:5px; height:40px; font-family:"proxima-nova"; margin-bottom:16px; line-height:40px; }
+  .jinni_signin_box .input input{ font-size:16px; font-weight:normal; border:2px solid #e1e1e1; color:#000000; width:95%; padding-left:5%; height:100%; border-radius:5px; }
+  #jinni_signup_conf_box .white_block div { width:100%; height:48px; line-height:48px; }
+  #jinni_signup_conf_box .input input{ font-size:16px; font-weight:normal; border:2px solid #e1e1e1; color:#000000; width:95%; padding-left:5%; height:100%; border-radius:5px; color:#000000; }
+
+  /* BLOCK 1 */
+  .box_top .logo_white { position:absolute; top:0px; left:32px; }
+  .box_top .jinni_login { position:absolute; top:0px; right:85px; width:32px; height:32px; margin-top:12px;  }
+  .box_top .jinni_menu { position:absolute; top:0px; right:32px; width:25px; height:22px; margin-top:16px; }
+  .box_top_message .shortener { position:relative; width:300px; height:46px; background:#ffffff; border-radius:3px; margin-top:50px; }
+  .box_top_arrow_down { margin-top:110px; }
+
+  /* BLOCK 2 */
+  .box_white .block_2 .card_1 { display:none; }
+  .box_white .block_2 .card_2 { z-index:2; position:absolute; top:-6px; left:50%; margin-left:-290px; }
+  .box_white .block_2 .card_3 { z-index:3; position:absolute; top:-36px; left:50%; margin-left:-132px; }
+  .box_white .block_2 .card_4 { z-index:2; position:absolute; top:-6px; right:50%; margin-right:-290px; }
+  .box_white .block_2 .card_5 { display:none; }
+
+  /* BLOCK 3 */
+  .box_white .block_3 { text-align:center; }
+  .box_white .block_3 .fast_and_smart_text { margin-left:auto; margin-right:auto; }
+  .box_white .block_3 .fast_and_smart_img { width:320px; height:320px; }
+  .box_white .block_3 .fast_and_smart_text { width:275px; height:285px; margin-top:32px; }
+
+  /* BLOCK 4 */
+  .box_white .block_4 { text-align:center; }
+  .box_white .block_4 div { margin-left:auto; margin-right:auto; }
+  .box_white .block_4 .all_in_one_img { display:none; }
+  .box_white .block_4 .all_in_one_text { width:290px;  margin-top:48px;}
+  .box_white .block_4 .all_in_one_text .huge_message { margin-bottom:16px; }
+  .box_white .block_4 .all_in_one_title { color:#000000; width:230px; font-family:"proxima-nova"; font-weight:bold; font-size:58px; line-height:45px; margin-top:64px; text-transform:uppercase; margin-bottom:38px; }
+
+  /* BLOCK 5 */
+  .box_white .block_5 { text-align:center; }
+  .box_white .block_5 div { margin-left:auto; margin-right:auto; }
+  .box_white .block_5 .listen_and_learn_text { position:relative; width:290px; margin-top:47px; }
+  .box_white .block_5 .listen_and_learn_text .huge_message { margin-bottom:16px; }
+  .box_white .block_5 .listen_and_learn_img { display:none; }
+  .box_white .block_5 .track_and_analyze_text { width:290px; min-height:90px; margin-top:46px; }
+  .box_white .block_5 .track_and_analyze_text .huge_message { margin-bottom:16px; }
+  .box_white .block_5 .track_and_analyze_img { display:none; }
+
+  /* BLOCK 6 */
+  .box_white .block_6 { position:relative; margin-top:20px; width:100%; min-height:300px; text-align:center; }
+  .box_white .block_6 div { margin-left:auto; margin-right:auto; }
+  .box_white .block_6 .all_your_social_networks_title { color:#000000; width:320px; font-family:"proxima-nova"; font-weight:bold; font-size:53px; line-height:45px; text-transform:uppercase; margin-bottom:45px; }
+  .box_white .block_6 .list_social_network { }
+  .box_white .block_6 .list_social_network img { margin-right:5px; width:45px; height:45px; }
+  .box_white .block_6 .list_social_network_text { margin-top:32px; width:260px; color:#050505; font-family:"proxima-nova"; font-weight:normal; font-size:14px; line-height:33px; }
+
+  /* BLOCK 7 */
+  .box_white .block_7 { text-align:center; }
+  .box_white .block_7 div { margin-left:auto; margin-right:auto; }
+  .box_white .block_7 { position:relative; width:100%; margin-top:90px; min-height:305px; }
+  .box_white .block_7 .smart_hashtags_text { width:300px; margin-top:30px; }
+  .box_white .block_7 .smart_hashtags_img { margin-bottom:20px; width:289px; height:289px; }
+
+  /* BLOCK 8 */
+  .box_white .block_8 .give_it_a_try_text { width:290px; min-height:120px; }
+
+  /* BLOCK 9 */
+  .box_white .block_9 .about_us_text { width:290px; min-height:170px; }
+  .box_white .block_9 .about_us_profiles { width:290px; min-height:220px; margin-top:70px; }
+  .box_white .block_9 .about_us_profiles .profile { width:100%; height:100px; }
+  .box_white .block_9 .about_us_profiles .profile img { float:left; width:80px; height:80px; }
+  .box_white .block_9 .about_us_profiles .profile .profile_text { float:left; margin-left:20px; text-align:left; height:40px; margin-top:10px; }
+
+  /* BLOCK 10 */
+  .box_white .block_10 { display:none; }
+
+  /* BLOCK 11 */
+  .box_white .block_11 { height:112px; margin-top:32px; }
+}
